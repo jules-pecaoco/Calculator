@@ -1,0 +1,96 @@
+.button{
+    -fx-background-radius: 50px;
+}
+
+.button:hover{
+      -fx-text-fill: #14150f;
+      -fx-background-color: #bbbfa6;
+}
+
+.button:pressed{
+       -fx-translate-y: 3px;
+     }
+
+.background{
+    -fx-background-color: #080906;
+}
+
+.primary{
+    -fx-font-size: 100px;
+   -fx-background-color: #bbbfa6;
+
+}
+
+.secondary{
+    -fx-background-color: #14150f;
+}
+
+.text{
+    -fx-font-size: 25px;
+    -fx-text-fill: #afb497;
+}
+
+.text:pressed{
+    -fx-font-size: 15px;
+}
+
+.accent{
+    -fx-background-color: #afb497;
+}
+
+.focus{
+    -fx-font-size: 25px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #afb497 ;
+    -fx-focus-traversable: true;
+    -fx-text-alignment: center;
+    -fx-background-color: transparent   ;
+    -fx-text-fill: #afb497;
+    -fx-focus-color: #afb497;
+}
+
+.delete{
+    -fx-text-fill: red;
+}
+
+.text-field{
+    -fx-background-color: transparent;
+}
+
+.text-area {
+    -fx-font-size: 25px;
+    -fx-text-fill: #afb497;
+    -fx-border-radius: 5px;
+    -fx-border-color: #afb497;
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .content .text {
+    -fx-text-alignment: right;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+.scroll-pane{
+   -fx-background-color:transparent;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar {
+    -fx-border-radius: 10px;
+    -fx-background-color: #afb497;
+}
+
